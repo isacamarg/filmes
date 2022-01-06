@@ -1,0 +1,147 @@
+/*reset*/
+
+* { /*pesquisar esse asterisco*/
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; /*pesquisar sobre box-sizing*/
+}
+
+*, input, button {
+    font-family: Poppins, Roboto;
+    
+}
+
+html, body {
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+} /*assim o footer fica pra baixo pq o body usa todo o espaço disponivel*/
+
+.menu {
+    height: 48px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.mochi{
+    display: flex;
+    align-items: center;
+}
+
+.mochi__balanço{
+    margin-top: 100px;
+    width: 200px;
+    border-radius: 50%; 
+    height: 200px;
+}
+
+/*main*/
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 8px 0;
+}
+
+.bem__vindo{
+    position: relative; /*sla se muda algo vou ver dps*/
+    padding: 8px;
+    font-size: 56px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.texto{
+    position:relative;
+    padding: 8px;
+    align-items: center;
+    text-align: center;
+}
+
+.aperte{
+    position:relative;
+    padding: 8px;
+    align-items: center;
+    text-align: center;
+    margin-top: 18px;
+}
+
+#btn{
+    position: relative;
+    width: 350px;
+    height: 50px;
+    padding: 8px;    
+    margin-top: 18px;
+
+    background: #56B0D7;
+    border-radius: 25px;
+    border: 1px solid #56B0D7;
+    outline: 0;
+    font-size: 18px;
+    color: #f2f2f2;
+}
+
+#btn:hover {
+    background: #136E96;
+    border: 1px solid #136E96;
+  }
+
+.filminho{
+    position:relative;
+    padding: 8px;
+    align-items: center;
+    text-align: center;    
+    margin-top: 18px;
+}
+
+#filme{
+    position: relative;
+    width: 350px;
+    height: 50px;
+    padding: 8px;
+    margin-top: 18px;
+
+    border-radius: 25px;
+    color: rgba(0,0,0,0.87); /*opacidade*/
+    background: transparent;
+    border: 1px solid #dadce0;
+    outline: 0;
+    font-weight: bold;
+    font-size: 18px;
+
+    text-align: center;
+}
+
+/*footer*/
+.pé {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mochi__footer{
+    display: flex;
+    align-items: center;
+}
+
+.mochi__sofa{
+    width: 200px; 
+    height: 200px;
+}
+
+/*media query*/
+/*responsividade*/
+
+@media (min-width:763px) {
+       
+}
