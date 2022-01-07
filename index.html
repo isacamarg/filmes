@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filminhus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link  rel='stylesheet'  href='style.css'  />
+</head>
+<body>
+    <header>
+        <img class='mochi_balanço_img' src="assets/image2vector.svg "  alt="Mochi" />
+    </header>
+
+    <main class='content'>
+        <div class="text">
+            <div class="welcome_text">
+                Bem-vindo
+            </div>
+            <br/>
+            namorado sortudo de uma menina muito dedicada que tentou desenvolver um quase site
+            <br/>
+            só pra gente fazer o que fazemos de melhor: ver filminho e ficar de dengo
+        </div>
+
+        <input type="button" id="btn" value='Escolher filminho 🥺' onclick="random_movie();" />
+
+        <div class='filminho'>
+            e o filminho de hoje é:
+            <p id="filme" ></p>
+        </div>
+        
+        <script src="main.js"></script>
+    </main>
+
+    <footer>        
+        <div class='mochi__footer'>
+            <img class='mochi__sofa' src="assets/image2vector (2).svg "  alt="Mochi" />        
+        </div>
+    </footer>
+</body>
+</html>
